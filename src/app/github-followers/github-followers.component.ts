@@ -7,6 +7,7 @@ import 'rxjs/add/operator/map';
 import 'rxjs/add/operator/switchMap';
 
 @Component({
+  // tslint:disable-next-line:component-selector
   selector: 'github-followers',
   templateUrl: './github-followers.component.html',
   styleUrls: ['./github-followers.component.css']

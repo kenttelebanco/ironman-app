@@ -5,5 +5,13 @@
 
 export const environment = {
   production: false,
-  navBarBackgroundColor: 'blue'
+  firebase: {
+    apiKey: 'AIzaSyAS5Rs8L72-8NhOEMWXBWUQgu4CVU7we2k',
+    authDomain: 'ironman-app-50174.firebaseapp.com',
+    databaseURL: 'https://ironman-app-50174.firebaseio.com',
+    projectId: 'ironman-app-50174',
+    storageBucket: 'ironman-app-50174.appspot.com',
+    messagingSenderId: '830026613769',
+    appId: '1:830026613769:web:4a2735fd6f335eea'
+  }
 };
